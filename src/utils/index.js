@@ -19,15 +19,4 @@ const mapDBToModel =
         updatedAt: updated_at,
     });
 
-const getAllMapDBToModel =
-    ({
-         id,
-         title,
-         performer
-     }) => ({
-        id,
-        title,
-        performer
-    });
-
-module.exports = {mapDBToModel, getAllMapDBToModel};
+module.exports = {mapDBToModel};
