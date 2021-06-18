@@ -1,7 +1,7 @@
 const {Pool} = require('pg');
 const {nanoid} = require('nanoid');
 const InvariantError = require('../../exceptions/InvariantError');
-const {mapDBToModel} = require('../../utils');
+const {mapDBToModel,getSongAllmapDBToModel} = require('../../utils');
 const NotFoundError = require('../../exceptions/NotFoundError');
 
 class SongsService {
@@ -29,13 +29,8 @@ class SongsService {
     }
 
     async getSongs() {
-        const result = await this._pool.query('SELECT * FROM songs');
-        return result.rows.map((song) => ({
-                id : song.id,
-                title : song.title,
-                performer : song.performer
-            })
-        );
+        const result = await this._pool.query('SELECT id, title, performer FROM songs');
+        return result.rows.map(getSongAllmapDBToModel);
     }
 
     async getSongById(id) {

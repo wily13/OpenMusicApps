@@ -19,4 +19,15 @@ const mapDBToModel =
         updatedAt: updated_at,
     });
 
-module.exports = {mapDBToModel};
+const getSongAllmapDBToModel =
+    ({
+         id,
+         title,
+         performer
+     }) => ({
+        id,
+        title,
+        performer
+    });
+
+module.exports = {mapDBToModel,getSongAllmapDBToModel};

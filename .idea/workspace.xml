@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84579c3-0f47-46f0-bc74-c675d9f539ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/1623644383439_create-table-songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1623644383439_create-table-songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/songs/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/songs/handler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/postgres/SongsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/SongsService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validator/songs/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/songs/schema.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1tv8EiJlqL3urqMsJN6ZLcKMjEA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623638092287</updated>
-      <workItem from="1623638093553" duration="12879000" />
+      <workItem from="1623638093553" duration="13389000" />
+      <workItem from="1624002692439" duration="2048000" />
     </task>
     <servers />
   </component>
